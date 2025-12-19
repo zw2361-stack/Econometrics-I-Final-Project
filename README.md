@@ -1,13 +1,6 @@
-================================================================================
-              ECONOMETRICS PROJECT - CODE AND OUTPUT DOCUMENTATION
-              Replication of Roychowdhury (2006) Real Earnings Management
-================================================================================
 
-Last Updated: November 29, 2025
-
-================================================================================
 PROJECT STRUCTURE
-================================================================================
+
 
 econometrics_project/
 ├── code/                    # Stata do files
@@ -17,12 +10,12 @@ econometrics_project/
 ├── output/                  # Final output (Excel tables)
 └── README.txt              # This file
 
-================================================================================
+
 DO FILES DESCRIPTION
-================================================================================
+
 
 1. Replication_20251129.do (MAIN FILE)
-   ------------------------------------------------------------------------------
+   
    Purpose: Complete replication of Roychowdhury (2006) and extensions
             Includes Table 2, Table 4, and 3 extension analyses
 
@@ -81,9 +74,9 @@ DO FILES DESCRIPTION
       - Industry FE (sic2), clustered SE by gvkey
       - Output: Excel sheet "liquidity"
 
-================================================================================
+
 OUTPUT FILES
-================================================================================
+
 
 output/Replication_20251128.xlsx
    - Table2: Roychowdhury (2006) Table 2 replication (1987-2001)
@@ -92,9 +85,9 @@ output/Replication_20251128.xlsx
    - covid: COVID × Contact Industry extension
    - liquidity: Liquidity × COVID extension (cash/assets and leverage)
 
-================================================================================
+
 NOTES
-================================================================================
+
 
 1. Analyst Forecast Extension:
    - Uses ufe = ACTUAL - MEDEST (unexpected forecast error)
